@@ -1,0 +1,18 @@
+
+1.Träning, Validering och Test används för olika ändamål:
+ a-Träning: Används för att träna modellen på data.
+ b-Validering: Används för att justera hyperparametrar och utvärdera modellens prestanda under utveckling.
+ c-Test: Används för att slutligen utvärdera modellens prestanda på osett data.
+
+2.Ordinal encoding, one-hot encoding och dummy variable encoding är sätt att representera kategoriska data:
+ a-Ordinal encoding: Tilldelar numeriska värden baserat på ordning, t.ex. "liten" = 1, "medel" = 2, "stor" = 3.
+ b-One-hot encoding: Skapar binära kolumner för varje kategori, t.ex. "röd" = [1, 0, 0], "grön" = [0, 1, 0], "blå" = [0, 0, 1].
+ c-Dummy variable encoding: Liknar one-hot encoding men utelämnar en kategori som referens, t.ex. "röd" = [0, 0], "grön" = [1, 0], "blå" = [0, 1].
+
+3.Göran och Julia har båda rätt, men det beror på kontexten.
+Färger som {röd, grön, blå} är normalt nominala, men om en specifik tolkning ger dem en ordning (t.ex. "röd är vackrast"), blir de ordinala. 
+Julia har rätt i att det måste tolkas.
+
+4.Joblib och pickle används för att spara och ladda tränade modeller i Python. 
+De gör det möjligt att träna en modell en gång och sedan återanvända den för prediktioner utan att behöva träna om den.
+Detta sparar tid och resurser.
