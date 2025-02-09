@@ -52,7 +52,6 @@ elif option == "Draw a digit":
         if st.button("Predict"):
             prediction = model.predict(image_array)
             st.write(f"Predicted digit: {prediction[0]}")
-            st.write(model)
 
 # Option 3: Capture image via webcam
 elif option == "Capture image via webcam":
