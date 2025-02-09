@@ -44,17 +44,17 @@ streamlit run Streamlit_App.py
 Open the app in your browser:
 The app should open automatically in your default web browser. If not, navigate to http://localhost:8501.
 
-Usage
+## Usage
 
-## Upload an image:
+### Upload an image:
 Click on "Upload an image" in the sidebar.
 Upload an image of a handwritten digit.
 Click the "Predict" button to see the predicted digit.
-## Draw a digit:
+### Draw a digit:
 Click on "Draw a digit" in the sidebar.
 Use your mouse to draw a digit on the canvas.
 Click the "Predict" button to see the predicted digit.
-## Capture image via webcam:
+### Capture image via webcam:
 Click on "Capture image via webcam" in the sidebar.
 Allow the app to access your webcam and capture an image.
 Click the "Predict" button to see the predicted digit.
