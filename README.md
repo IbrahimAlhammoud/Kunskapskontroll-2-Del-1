@@ -10,7 +10,7 @@ This project is a simple web application that predicts handwritten digits using 
 - [Usage](#usage)
 - [Models](#models)
 - [Files](#files)
-- [License](#license)
+
 
 ## Overview
 
@@ -69,9 +69,7 @@ Support Vector Machine (SVM): A supervised learning model that finds the hyperpl
 MNIST_Model.py: This script trains the Random Forest and SVM models on the MNIST dataset, evaluates their performance, and saves the best model as mnist_model.pkl.
 Streamlit_App.py: This script contains the Streamlit web application that allows users to interact with the model and get predictions.
 requirements.txt: Lists the Python dependencies required to run the project.
-## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ### Notes:
 - Replace `your-username` in the clone command with your actual GitHub username.
